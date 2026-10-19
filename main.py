@@ -12,8 +12,11 @@ st.markdown(
     
     .custom-font-text {
         font-family: 'New Font', sans-serif;
-        font-size: 100px;
-        line-height: 1.5;
+        font-size: 2.5rem;
+        line-height: 1.2;
+        font-weight: normal;
+        margin-top: 0px;
+        margin-bottom: 1rem;
     }
     </style>
     """,
