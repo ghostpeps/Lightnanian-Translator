@@ -5,23 +5,25 @@ st.markdown(
     <style>
     @font-face {
         font-family: 'New Font';
-        src: url('app/static/slovanian.otf') format('opentype');
+        src: url('app/libraries/slovanian.otf') format('opentype');
         font-weight: normal;
         font-style: normal;
     }
     
     .custom-font-text {
-        font-family: 'New Font', sans-serif;
-        font-size: 2.5rem;
-        line-height: 1.2;
-        font-weight: normal;
-        margin-top: 0px;
-        margin-bottom: 1rem;
+        font-family: 'New Font', sans-serif !important;
+        font-size: 2.5rem !important;    /* !important forces the browser to apply this size */
+        line-height: 1.2 !important;
+        font-weight: normal !important;  /* Ensures it stays clean and non-bolded */
+        margin-top: 10px !important;
+        margin-bottom: 20px !important;
+        display: block !important;       /* Ensures it behaves like a headline block */
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 def write_font(text: str):
     """Outputs standalone text containers using sitelen pona."""
