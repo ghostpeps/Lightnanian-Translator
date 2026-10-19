@@ -32,7 +32,7 @@ def write_font(text: str):
         unsafe_allow_html=True
     )
 
-st.title("GitHub Hosted Custom Font")
-st.write("Regular default text looks like this.")
+st.title("Lightnanian Translator")
 
-write_font("toki pona li pona")
+
+write_font("bhavish")
