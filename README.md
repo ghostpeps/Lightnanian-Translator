@@ -1,0 +1,2 @@
+# Lightnanian-Translator
+translator
