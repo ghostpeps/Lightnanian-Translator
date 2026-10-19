@@ -35,4 +35,4 @@ def write_font(text: str):
 st.title("Lightnanian Translator")
 
 
-write_font("bhavish")
+write_font("random")
